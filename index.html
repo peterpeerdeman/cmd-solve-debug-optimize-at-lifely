@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Solve, Debug & Optimize at Lifely</title>
+
+        <meta name="description" content="Solve, Debug & Optimize at Lifely">
+        <meta name="author" content="Peter Peerdeman">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/pp-reveal.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+        <link rel="stylesheet" href="lib/css/googlecode.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section class="pp-title">
+                    <h2>Lifely businesscase:</h2>
+                    <h3>Solve, Debug & Optimize</h3>
+                    <p>
+                        <img src="images/peter2.png" alt="">
+                    </p>
+                    <img src="images/logo-white.png"/>
+                    <p>
+                        <a href="http://twitter.com/peterpeerdeman">@peterpeerdeman</a>
+                    </p>
+                </section>
+                <section data-background="images/payoff-slide.png">
+                </section>
+                <section>
+                    <h2>Case 1:</h2>
+                    <h3>Bundlin</h3>
+                </section>
+                <section>
+                    <img src="images/bundlin-logo.png" alt=""/>
+                    <blockquote>"create, discover and share beautiful collections of links."</blockquote>
+                </section>
+                <section>
+                    <video id="bundlin-screendemo" controls="controls" autoplay name="partup-screendemo" src="videos/bundlin-screendemo.mp4"></video>
+                </section>
+                <section>
+                    <h2>bundlin tech stack</h2>
+                    <ul>
+                        <li class="fragment">Backend: NodeJS / Express</li>
+                        <li class="fragment">Frontend: AngularJS</li>
+                        <li class="fragment">Build tool: Grunt</li>
+                        <li class="fragment">Development: Vagrant</li>
+                        <li class="fragment">Deployment: ansible & wercker</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Bundlin case suggestions</h3>
+                     <ul>
+                         <li>mobile loadtime</li>
+                         <li>above the fold css</li>
+                         <li>scroll performance</li>
+                         <li>buildtool improvements</li>
+                         <li>html/css optimalisatie</li>
+                     </ul>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                    <h3>mobile loadtime</h3>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                    <h3>above the fold css</h3>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                    <h3>scroll performance</h3>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                    <h3>buildtool improvements</h3>
+                    <ul>
+                        <li>bower -> npm</li>
+                        <li>browserify dependencies</li>
+                        <li>upgrade angular</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>bundlin</h2>
+                    <h3>html/css optimalisatie</h3>
+                </section>
+                <section>
+                    <h3>bundlin: get started</h3>
+                    <ul>
+                        <li>download <a href="http://files.lifely.nl/cmd-bundlin/bundlin-client.zip">bundlin-client.zip</a> using password</li>
+                        <li>unzip</li>
+                        <li>npm install</li>
+                        <li>use http-server to serve dist folder</li>
+                        <li>create /api/* stubs from bundlin.com</li>
+                    </ul>
+                    <pre>
+                        <code>
+                        unzip bundlin-client.zip
+                        cd bundlin/client/
+                        npm install
+                        grunt
+                        cd build
+                        http-server
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <h2>Case 2:</h2>
+                    <h3>Part-up</h3>
+                </section>
+                <section>
+                    <img src="images/partup-logo.png" alt=""/>
+                    <blockquote>"a smart marketplace for teamwork, matching people into temporary teams"</blockquote>
+                </section>
+                <section>
+                    <video id="partup-screendemo" controls="controls" autoplay name="partup-screendemo" src="videos/partup-screendemo.mov#t=23"></video>
+                </section>
+                <section>
+                    <h2>part-up tech stack</h2>
+                    <ul>
+                        <li class="fragment">Back-end: MeteorJS</li>
+                        <li class="fragment">Build tool: MeteorJS</li>
+                        <li class="fragment">Front-end: MeteorJS</li>
+                        <li class="fragment">Development: MeteorJS</li>
+                        <li class="fragment">Deployment: Ansible / Docker / Jenkins</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>part-up case suggestions</h3>
+                     <ul>
+                         <li>homepage load optimization</li>
+                         <li>pendin github issues</li>
+                         <li>accessibility / aria</li>
+                         <li>testing</li>
+                     </ul>
+                </section>
+                <section>
+                    <h2>part-up</h2>
+                    <h3>homepage load optimization</h3>
+                </section>
+                <section>
+                    <h2>part-up</h2>
+                    <h3>accessibility / aria</h3>
+                </section>
+                <section>
+                    <h2>part-up</h2>
+                    <h3>testing</h3>
+                </section>
+                <section>
+                    <h2>part-up</h2>
+                    <h3>pending github issues</h3>
+                    <ul>
+                        <li><a href="https://github.com/part-up/part-up/issues/65">Header on mobile doesn't fill screen width (black part visible) </a></li>
+                        <li><a href="https://github.com/part-up/part-up/issues/66">Pop-up "Take part" doesn't allow pinch to zoom out </a></li>
+                        <li><a href="https://github.com/part-up/part-up/issues/221">Improve iPad performance </a></li>
+                        <li><a href="https://github.com/part-up/part-up/issues/219">Tags not visible on profile on mobile browsers </a></li>
+                        <li><a href="https://github.com/part-up/part-up/issues/295">Long tag on most right column part-up tile on discover doesn't hide behind tile </a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>part-up</h2>
+                    <h3>get started</h3>
+                    <ul>
+                        <li>git clone <a href="http://www.github.com/part-up/part-up">http://www.github.com/part-up/part-up</a> </li>
+                        <li>decrypt development variables</li>
+                        <li>start meteor project</li>
+                    </ul>
+                    <pre>
+                        <code>
+                        brew install ansible
+                        cd part-up/config/development
+                        ./decrypt #enter password here
+                        cd ../../
+                        ./start
+                        </code>
+                    </pre>
+                </section>
+                <section>
+                    <h3>Materials</h3>
+                    <ul>
+                        <li>slides: <a href="https://peterpeerdeman.github.io/cmd-solve-debug-optimize-at-lifely">https://peterpeerdeman.github.io/cmd-solve-debug-optimize-at-lifely</a></li>
+                        <li>bundlin-client source: <a href="http://files.lifely.nl/cmd-bundlin">http://files.lifely.nl/cmd-bundlin</a></li>
+                        <li>part-up source: <a href="http://www.github.com/part-up/part-up">http://www.github.com/part-up/part-up</a> </li>
+                    </ul>
+                </section>
+                <section class="pp-title">
+                    <h3>Thank you for your attention</h3>
+                </section>
+                <section class="pp-title">
+                    <h3>Meteor and Isomorphic Javascript</h3>
+                    <p>
+                        <img src="images/peter2.png" alt="">
+                    </p>
+                    <img src="images/logo-white.png"/>
+                    <p>
+                        <a href="http://twitter.com/peterpeerdeman">@peterpeerdeman</a>
+                    </p>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
