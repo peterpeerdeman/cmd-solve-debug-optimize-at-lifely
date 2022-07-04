@@ -1,3 +1,3 @@
-It can be found on http://peterpeerdeman.github.io/meteor-and-isomorphic-javascript/
+It can be found on http://peterpeerdeman.github.io/cmd-solve-debug-optimize-at-lifely-2017
 
-This talk was given on 16-03-2016 at the [JSMVC Meetup #15 hosted at Lifely](http://www.meetup.com/JavaScript-MVC-Meetup-Amsterdam/events/228759804/)
+This talk was given on 03-04-2017 at the Lifely office.
